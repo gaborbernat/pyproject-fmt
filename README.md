@@ -11,7 +11,7 @@ Add it to your `.pre-commit-config.yaml`:
 
 ```yaml
 - repo: https://github.com/tox-dev/pyproject-fmt
-  rev: "" # Use the sha / tag you want to point at
+  rev: "v2.8.0"
   hooks:
     - id: pyproject-fmt
 ```
